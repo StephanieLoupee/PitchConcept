@@ -22,6 +22,25 @@ block (or unit) and group them according to fabrics to be used.
 
 An 'upscaled' version might allow the user to specify 'sashing' (strips separating the blocks) and/or 'borders' (strips 
 around the outside of the main patterned area) to be included in the size and fabric calculations.  It might also draw out
-a representation of the completed project to demonstrate what the completed project might look like.
+a representation of the completed project to demonstrate what the completed project might look like.  It might also
+allow the user to specify (choose) from multiple construction techniques for certain sub-units of the blocks (which would
+affect the cutting sizes and shapes of some pieces).
     
- 
+
+USER STORIES
+
+1) As a user, I want the app to calculate how much fabric I need to make a specific number of pieces of a specific size and
+   shape, because this is a tedious process that I don't want to have to do manually.
+2) As a designer, I would like the app to be able to determine what size of pieces need to be cut, based on a drawing of a
+   "finished" block, so that I don't make errors in accounting for seam allowances, ensuring that my stitched block
+   will be the size I intend.
+3) As a user, I would like the app to tell me how many blocks I need to make a project of the size I specify, so that I
+   don't miscalculate on my own. 
+    a) If it is not possible to get to the size I specify using whole blocks, as a user, I would like the app to tell 
+       me the nearest size that can be made with whole blocks, without going larger than my specified size.
+4) As a product owner, I want secure access to the app.
+5) 
+
+
+31) As a user, I want to be able to define the size/shape of my block, so that I can base a project on a square, rectangle, hexagon, or any other shape I choose.
+32) As a user, I want to 'color' my block, so that I can differentiate the different fabrics I use in my project
